@@ -45,228 +45,7 @@ window.onload = function () {
       }
     }
     //======  0
-    var mainImage0 = document.getElementsByClassName("mainImage")[0];
-    var thumbnail0 = document.getElementsByClassName("thumbnail")[0];
 
-    // TODO obsługa wielu fotek na raz
-    thumbnail0.onclick = function () {
-        if (thumbnail0.id == 1) {
-            var obrazken0 = document.getElementById("img01");
-            var obrazko0 = thumbnail0.src;
-            mainImage0.style.display = "block";
-            obrazken0.src = obrazko0;
-
-             // zamyka okno
-            var span0 = document.getElementsByClassName("modal-content")[0];
-            span0.onclick = function () {
-            mainImage0.style.display = "none";
-            }
-        }
-
-    }
-    //=========== 1
-    var mainImage1 = document.getElementsByClassName("mainImage")[0];
-    var thumbnail1 = document.getElementsByClassName("thumbnail")[1];
-
-    thumbnail1.onclick = function () {
-        if (thumbnail1.id == 2) {
-            var obrazken1 = document.getElementById("img01");
-            var obrazko1 = thumbnail1.src;
-            mainImage1.style.display = "block";
-            obrazken1.src = obrazko1;
-
-            var span1 = document.getElementsByClassName("modal-content")[0];
-            span1.onclick = function () {
-            mainImage1.style.display = "none";
-            }
-        }
-
-    }
-
-    //======  2
-    var mainImage2 = document.getElementsByClassName("mainImage")[0];
-    var thumbnail2 = document.getElementsByClassName("thumbnail")[2];
-
-    thumbnail2.onclick = function () {
-        if (thumbnail2.id == 3) {
-            var obrazken2 = document.getElementById("img01");
-            var obrazko2 = thumbnail2.src;
-            mainImage2.style.display = "block";
-            obrazken2.src = obrazko2;
-
-            var span2 = document.getElementsByClassName("modal-content")[0];
-            span2.onclick = function () {
-            mainImage2.style.display = "none";
-            }
-        }
-
-    }
-
-    var mainImage3 = document.getElementsByClassName("mainImage")[0];
-    var thumbnail3 = document.getElementsByClassName("thumbnail")[3];
-
-    thumbnail3.onclick = function () {
-        if (thumbnail3.id == 4) {
-            var obrazken3 = document.getElementById("img01");
-            var obrazko3 = thumbnail3.src;
-            mainImage3.style.display = "block";
-            obrazken3.src = obrazko3;
-
-            var span3 = document.getElementsByClassName("modal-content")[0];
-            span3.onclick = function () {
-            mainImage3.style.display = "none";
-            }
-        }
-
-    }
-
-    var thumbnail4 = document.getElementsByClassName("thumbnail")[4];
-    thumbnail4.onclick = function () {
-        if (thumbnail4.id == 5) {
-            var obrazken3 = document.getElementById("img01");
-            var obrazko3 = thumbnail4.src;
-            mainImage3.style.display = "block";
-            obrazken3.src = obrazko3;
-
-            var span3 = document.getElementsByClassName("modal-content")[0];
-            span3.onclick = function () {
-            mainImage3.style.display = "none";
-            }
-        }
-
-    }
-    var thumbnail5 = document.getElementsByClassName("thumbnail")[5];
-    thumbnail5.onclick = function () {
-        if (thumbnail5.id == 6) {
-            var obrazken3 = document.getElementById("img01");
-            var obrazko3 = thumbnail5.src;
-            mainImage3.style.display = "block";
-            obrazken3.src = obrazko3;
-
-            var span3 = document.getElementsByClassName("modal-content")[0];
-            span3.onclick = function () {
-            mainImage3.style.display = "none";
-            }
-        }
-
-    }
-    var thumbnail6 = document.getElementsByClassName("thumbnail")[6];
-    thumbnail6.onclick = function () {
-        if (thumbnail6.id == 7) {
-            var obrazken3 = document.getElementById("img01");
-            var obrazko3 = thumbnail6.src;
-            mainImage3.style.display = "block";
-            obrazken3.src = obrazko3;
-
-            var span3 = document.getElementsByClassName("modal-content")[0];
-            span3.onclick = function () {
-            mainImage3.style.display = "none";
-            }
-        }
-
-    }
-
-    var thumbnail7 = document.getElementsByClassName("thumbnail")[7];
-    thumbnail7.onclick = function () {
-        if (thumbnail7.id == 8) {
-            var obrazken3 = document.getElementById("img01");
-            var obrazko3 = thumbnail7.src;
-            mainImage3.style.display = "block";
-            obrazken3.src = obrazko3;
-
-            var span3 = document.getElementsByClassName("modal-content")[0];
-            span3.onclick = function () {
-            mainImage3.style.display = "none";
-            }
-        }
-
-    }
-
-        var thumbnail8 = document.getElementsByClassName("thumbnail")[8];
-    thumbnail8.onclick = function () {
-        if (thumbnail8.id == 9) {
-            var obrazken3 = document.getElementById("img01");
-            var obrazko3 = thumbnail8.src;
-            mainImage3.style.display = "block";
-            obrazken3.src = obrazko3;
-
-            var span3 = document.getElementsByClassName("modal-content")[0];
-            span3.onclick = function () {
-            mainImage3.style.display = "none";
-            }
-        }
-
-    }
-
-        var thumbnail9 = document.getElementsByClassName("thumbnail")[9];
-    thumbnail9.onclick = function () {
-        if (thumbnail9.id == 10) {
-            var obrazken3 = document.getElementById("img01");
-            var obrazko3 = thumbnail9.src;
-            mainImage3.style.display = "block";
-            obrazken3.src = obrazko3;
-
-            var span3 = document.getElementsByClassName("modal-content")[0];
-            span3.onclick = function () {
-            mainImage3.style.display = "none";
-            }
-        }
-
-    }
-
-        var thumbnail10 = document.getElementsByClassName("thumbnail")[10];
-    thumbnail10.onclick = function () {
-        if (thumbnail10.id == 11) {
-            var obrazken3 = document.getElementById("img01");
-            var obrazko3 = thumbnail10.src;
-            mainImage3.style.display = "block";
-            obrazken3.src = obrazko3;
-
-            var span3 = document.getElementsByClassName("modal-content")[0];
-            span3.onclick = function () {
-            mainImage3.style.display = "none";
-            }
-        }
-
-    }
-            var thumbnail11 = document.getElementsByClassName("thumbnail")[11];
-    thumbnail11.onclick = function () {
-        if (thumbnail11.id == 12) {
-            var obrazken3 = document.getElementById("img01");
-            var obrazko3 = thumbnail11.src;
-            mainImage3.style.display = "block";
-            obrazken3.src = obrazko3;
-
-            var span3 = document.getElementsByClassName("modal-content")[0];
-            span3.onclick = function () {
-            mainImage3.style.display = "none";
-            }
-        }
-
-    }
-
-
-    /*
-    var mainImage = document.getElementsByClassName("mainImage")[0];
-    var i = 5;
-    var thumbo = document.getElementsByClassName("thumbnail")[i];
-    var a = thumbo.id;
-    if(a==6){
-        thumbo.onclick = function (){
-            var obrazken = document.getElementById("img01");
-            var obrazko = thumbo.src;
-            mainImage.style.display = "block";
-            obrazken.src = obrazko;
-
-            var span = document.getElementsByClassName("modal-content")[0];
-            span.onclick = function () {
-            mainImage.style.display = "none";
-            }
-        }
-
-    }*/
-
-    //=====================
 
 
 
@@ -280,3 +59,39 @@ function myFunction(imgs) {
     imgText.innerHTML = imgs.alt;
     expandImg.parentElement.style.display = "block";
 };
+
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
