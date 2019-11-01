@@ -1,0 +1,319 @@
+a
+{
+    color:antiquewhite;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+    /*background-color:#CDC1B0 ;*/
+    background-color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+html {
+ scroll-behavior: smooth;
+}
+.gora
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.headerimage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+        
+}
+
+.latam
+{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 120px;
+    display: block;
+    font-family: 'Poiret One', cursive;
+}
+
+/*******************/
+/*MENU HEADER*/
+/*******************/
+
+.menudol
+{
+    display:  table;
+    bottom: 55px;
+    margin: 0 auto;
+    position:relative;
+    overflow: hidden;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.menudol button
+{
+    background-color: white;
+    border: none; 
+    padding: 20px 54px; 
+    cursor: pointer; 
+    float: left; 
+    color:black;
+    font-size: 38px;
+    text-align: center;
+    margin: 0 0;
+     font-family: 'Poiret One', cursive;
+    transition: all 400ms linear;
+
+}
+.menudol button:hover
+{
+    background-color: black;
+    color: white;
+    transition: all 400ms linear;
+ 
+    
+}
+
+#homeButton
+{
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px
+}
+
+
+#portfolioButton
+{
+
+    
+}
+
+
+#kontaktButton
+{
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+  
+
+}
+#buttonUP{
+    background-color: black;
+    max-width: 150px;
+    height: 30px;
+    padding: 10px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    display: none;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition:  background 400ms linear;
+    text-align: center;
+    font-size: 20px;
+     font-family: 'Poiret One', cursive;
+}
+#buttonUP:hover
+{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    transition: all 400ms linear;
+    
+}
+.omnie{
+    background-color: white;
+    position: relative;
+    text-align: center;
+    max-width: 1500px;
+    min-height: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20 0;
+}
+p.popis{  
+    max-width: 850px;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    margin: 20 auto;
+    font-weight: bold;
+    
+}
+
+div.youtube{
+    
+    /*
+    max-width: 1500px;
+    position: relative;
+    padding-top: 20px;
+    margin: 0 auto;
+    height: 300px;
+    margin: 0 auto;
+    */
+    text-align: center;
+    max-width: 1500px;
+    margin: 20 auto;
+    border-radius: 5px;
+   /* background-color: #B6AB9D;*/
+    background-color: white;
+}
+
+/*.video{
+    position: relative;
+    overflow: hidden;
+    margin: 0 50px;
+    text-align: center;
+}*/
+.video_iframe{
+    height: auto;
+    max-width: 100%;
+    
+}
+#frame1{
+    padding: 30px;
+    display:inline-block;
+    width: 520;
+    height: 320;
+  
+    
+}
+#frame2{
+
+    padding: 30px;
+    display:inline-block;
+    width: 520;
+    height: 320;
+   
+}
+/*******************/
+/* NOWA ZOOM GALERIA
+/*******************/
+.current{
+
+    border-bottom: 2px solid red;
+    margin-bottom: -2px;    
+
+}
+
+.galeria{
+    max-width: 1500px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20 auto;
+    border-radius: 5px;
+    /*background-color: #B6AB9D;*/
+    background-color: white;
+    text-align: center;
+}
+.thumbnail {
+    width: 300;
+    height: 180;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.thumbnail:hover {opacity: 0.7;}
+
+.mainImage {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 1500px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/***************************************************************************/
+.stopka{
+    height: 200px;
+    max-width: 1500;
+    bottom: 0px;
+    background-color: #B6AB9D;
+    background-color: gray;
+    text-align: center;
+    margin: 20 auto;
+    position: relative;
+    margin-top: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.telefon{
+    position: relative;
+    display: block;
+    top: 15%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+    
+}
+.fb{
+    position: relative;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    bottom: 4%;
+}
