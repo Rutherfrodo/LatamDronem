@@ -153,7 +153,8 @@ html {
     margin: 0 auto;
     border-radius: 5px;
     padding: 20 0;
-}
+    background-color: Silver/*#FFFFE0*/;
+  }
 p.popis{
     max-width: 850px;
     font-family: 'Poiret One', cursive;
@@ -179,8 +180,9 @@ div.youtube{
     max-width: 1500px;
     margin: 20 auto;
     border-radius: 5px;
+    display: block;
    /* background-color: #B6AB9D;*/
-    background-color: white;
+    background-color: Silver /*#FFFFE0*/;
 }
 
 /*.video{
@@ -199,17 +201,20 @@ div.youtube{
     display:inline-block;
     width: 520;
     height: 320;
-
-
 }
 #frame2{
-
     padding: 30px;
     display:inline-block;
     width: 520;
     height: 320;
-
 }
+#frame3{
+    padding: 30px;
+    display:inline-block;
+    width: 520;
+    height: 320;
+}
+
 /*******************/
 /* NOWA ZOOM GALERIA
 /*******************/
@@ -228,7 +233,7 @@ div.youtube{
     margin: 20 auto;
     border-radius: 5px;
     /*background-color: #B6AB9D;*/
-    background-color: white;
+    background-color: Silver;
     text-align: center;
 }
 .thumbnail {
@@ -315,7 +320,7 @@ div.youtube{
     position: relative;
     display: block;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     font-family: 'Poiret One', cursive;
 
 }
@@ -329,7 +334,6 @@ div.youtube{
     text-align: center;
     height: 100px;
     width: 100px;
-    bottom:;
 }
 .yt{
     position: relative;
