@@ -26,11 +26,14 @@ body{
     max-width: 200;
 }
 */
+.telefon{
+  font-size: 22px;
+}
 .latam{
     height: auto;
     max-width: 100%;
     font-size: 30px;
-        
+
 }
 .menudol{
     display: block;
@@ -47,7 +50,7 @@ body{
     height: 60;
 }
 
-p.popis{  
+p.popis{
     font-size: 12px;
     max-width: 350px;
 }
