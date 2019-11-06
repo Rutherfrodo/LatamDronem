@@ -58,12 +58,16 @@ html {
 
 .menudol
 {
-    display:  table;
+    display: table;
     bottom: 55px;
     margin: 0 auto;
     position:relative;
     overflow: hidden;
 
+}
+.menudol button{
+    width: 33.3%;
+    padding: 0px;
 }
 
 .sticky {

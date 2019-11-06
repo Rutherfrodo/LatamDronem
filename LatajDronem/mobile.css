@@ -37,11 +37,15 @@ body{
 }
 .menudol{
     display: block;
+    bottom: 30px;
 
 }
 .menudol button{
     font-size: 15px;
     text-align: center;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .galeria{
     max-width: 350px;
