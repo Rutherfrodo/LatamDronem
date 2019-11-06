@@ -42,12 +42,13 @@ html {
 .latam
 {
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:white;
     font-size: 120px;
     display: block;
+    text-align: center;
     font-family: 'Poiret One', cursive;
 }
 
@@ -96,27 +97,19 @@ html {
 
 
 }
-
 #homeButton
 {
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px
 }
-
-
 #portfolioButton
 {
 
-
 }
-
-
 #kontaktButton
 {
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
-
-
 }
 #buttonUP{
     background-color: black;
@@ -142,7 +135,6 @@ html {
     border: 1px solid black;
     background-color: white;
     transition: all 400ms linear;
-
 }
 .omnie{
     background-color: white;
@@ -163,9 +155,7 @@ p.popis{
     position: relative;
     margin: 20 auto;
     font-weight: bold;
-
 }
-
 div.youtube{
 
     /*
@@ -184,7 +174,6 @@ div.youtube{
    /* background-color: #B6AB9D;*/
     background-color: Silver /*#FFFFE0*/;
 }
-
 /*.video{
     position: relative;
     overflow: hidden;
@@ -237,14 +226,15 @@ div.youtube{
     text-align: center;
 }
 .thumbnail {
-    width: 300;
-    height: 180;
+  margin-top: 5px;
+  width: 300;
+  height: 180;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.thumbnail:hover {opacity: 0.7;}
+.thumbnail:hover {opacity: 0.7; border: solid 4px black; border-radius: 5px;}
 
 .mainImage {
     display: none;

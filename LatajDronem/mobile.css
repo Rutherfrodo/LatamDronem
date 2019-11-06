@@ -40,7 +40,8 @@ body{
 
 }
 .menudol button{
-    font-size: 25px;
+    font-size: 15px;
+    text-align: center;
 }
 .galeria{
     max-width: 350px;
