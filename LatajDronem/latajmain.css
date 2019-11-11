@@ -239,9 +239,6 @@ div.youtube{
 }
 .thumbnail:hover {opacity: 0.7; border: solid 4px black; border-radius: 5px;}
 
-
-
-
 .mainImage {
     display: none;
     position: fixed;
@@ -261,9 +258,12 @@ div.youtube{
   display: block;
   width: 80%;
   max-width: 1500px;
+
 }
 .mySlides {
   display: block;
+  width: auto;
+  
 }
 
 #caption {
@@ -319,9 +319,6 @@ div.youtube{
   color: white;
   border: 1px solid white;
 }
-
-
-
 
 @keyframes zoom {
   from {transform:scale(0)}
