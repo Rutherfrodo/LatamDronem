@@ -237,8 +237,10 @@ div.youtube{
   cursor: pointer;
   transition: 0.3s;
 }
-
 .thumbnail:hover {opacity: 0.7; border: solid 4px black; border-radius: 5px;}
+
+
+
 
 .mainImage {
     display: none;
@@ -279,6 +281,47 @@ div.youtube{
   animation-name: zoom;
   animation-duration: 0.6s;
 }
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.8s ease;
+  border-radius:3px;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: white;
+  color: black;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -100px;
+}
+.prev{
+  left: -100px;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: 1px solid white;
+}
+
+
+
 
 @keyframes zoom {
   from {transform:scale(0)}
