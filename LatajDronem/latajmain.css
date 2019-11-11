@@ -301,7 +301,7 @@ div.youtube{
     text-align: center;
     margin: 20 auto;
     position: relative;
-    margin-top: 400px;
+    margin-top: 150px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
@@ -309,17 +309,15 @@ div.youtube{
 .telopis{
   font-family: 'Poiret One', cursive;
   font-size: 25px;
-  text-align: left;
+  text-align: center;
   position: relative;
   display: block;
 }
 .telefon{
     position: relative;
     display: block;
-    text-align: left;
+    text-align: center;
     font-size: 35px;
-    font-family: 'Poiret One', cursive;
-
 }
 .socialmedia{
   margin-right:0px;
