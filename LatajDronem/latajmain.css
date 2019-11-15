@@ -162,32 +162,15 @@ p.popis{
 }
 div.youtube{
 
-    /*
-    max-width: 1500px;
-    position: relative;
-    padding-top: 20px;
-    margin: 0 auto;
-    height: 300px;
-    margin: 0 auto;
-    */
     text-align: center;
     max-width: 1500px;
     margin: 20 auto;
     border-radius: 5px;
     display: block;
-   /* background-color: #B6AB9D;*/
-    background-color: Silver /*#FFFFE0*/;
 }
-/*.video{
-    position: relative;
-    overflow: hidden;
-    margin: 0 50px;
-    text-align: center;
-}*/
 .video_iframe{
     height: auto;
     max-width: 100%;
-
 }
 #frame1{
     padding: 30px;
@@ -226,7 +209,6 @@ div.youtube{
     margin: 20 auto;
     border-radius: 5px;
     /*background-color: #B6AB9D;*/
-    background-color: Silver;
     text-align: center;
 }
 .thumbnail {
@@ -263,7 +245,7 @@ div.youtube{
 .mySlides {
   display: block;
   width: auto;
-  
+
 }
 
 #caption {
@@ -280,44 +262,6 @@ div.youtube{
 .modal-content, #caption {
   animation-name: zoom;
   animation-duration: 0.6s;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: 50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.8s ease;
-  border-radius:3px;
-  user-select: none;
-  -webkit-user-select: none;
-  background-color: white;
-  color: black;
-
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: -100px;
-}
-.prev{
-  left: -100px;
-
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  border: 1px solid white;
 }
 
 @keyframes zoom {
