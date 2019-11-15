@@ -61,11 +61,11 @@ function myFunction(imgs) {
 };
 
 function openModal() {
-  document.getElementById("myModal").style.display = "block";
+  document.getElementById("carouselExampleCaptions").style.display = "block";
 }
 
 function closeModal() {
-  document.getElementById("myModal").style.display = "none";
+  document.getElementById("carouselExampleCaptions").style.display = "none";
 }
 
 var slideIndex = 1;
