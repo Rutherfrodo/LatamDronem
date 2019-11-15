@@ -1,19 +1,17 @@
-a
-{
+a{
     color:antiquewhite;
     text-decoration: none;
     text-decoration-color: none;
 }
-body
-{
+body{
+    background-image: #72a6d9 !important;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    /*background-color:#CDC1B0 ;*/
-    background-color: white;
     text-align: center;
     overflow-x: hidden;
+
 }
 html {
  scroll-behavior: smooth;
@@ -140,26 +138,7 @@ html {
     background-color: white;
     transition: all 400ms linear;
 }
-.omnie{
-    background-color: white;
-    position: relative;
-    text-align: center;
-    max-width: 1500px;
-    min-height: 300px;
-    margin: 0 auto;
-    border-radius: 5px;
-    padding: 20 0;
-    background-color: Silver/*#FFFFE0*/;
-  }
-p.popis{
-    max-width: 850px;
-    font-family: 'Poiret One', cursive;
-    text-align: center;
-    font-size: 30px;
-    position: relative;
-    margin: 20 auto;
-    font-weight: bold;
-}
+
 div.youtube{
 
     text-align: center;
@@ -167,6 +146,8 @@ div.youtube{
     margin: 20 auto;
     border-radius: 5px;
     display: block;
+    background-color: #7FB9F2;
+    border: solid 3px #6594c1;
 }
 .video_iframe{
     height: auto;
@@ -208,7 +189,8 @@ div.youtube{
     padding-bottom: 20px;
     margin: 20 auto;
     border-radius: 5px;
-    /*background-color: #B6AB9D;*/
+    background-color: #7FB9F2;
+    border: solid 3px #6594c1;
     text-align: center;
 }
 .thumbnail {
@@ -280,8 +262,8 @@ div.youtube{
     height: 200px;
     max-width: 1500px;
     bottom: 0px;
-    background-color: #B6AB9D;
-    background-color: gray;
+    background-color: #7FB9F2;
+    border: solid 3px #6594c1;
     text-align: center;
     margin: 20 auto;
     position: relative;
@@ -296,12 +278,14 @@ div.youtube{
   text-align: center;
   position: relative;
   display: block;
+  color: #263748;
 }
 .telefon{
     position: relative;
     display: block;
     text-align: center;
     font-size: 35px;
+    color: #263748;
 }
 .socialmedia{
   margin-right:0px;
