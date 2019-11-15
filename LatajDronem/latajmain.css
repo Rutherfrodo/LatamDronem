@@ -4,7 +4,7 @@ a{
     text-decoration-color: none;
 }
 body{
-    background-image: #72a6d9 !important;
+
     margin: 0;
     padding: 0;
     width: 100%;
@@ -12,6 +12,28 @@ body{
     text-align: center;
     overflow-x: hidden;
 
+    background: linear-gradient(272deg, #7fb9f2, #72a6d9, #6594c1, #5881a9, #7fb9f2);
+    background-size: 1000% 1000%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+
+@-webkit-keyframes AnimationName {
+   0%{background-position:0% 48%}
+   50%{background-position:100% 53%}
+   100%{background-position:0% 48%}
+}
+@-moz-keyframes AnimationName {
+   0%{background-position:0% 48%}
+   50%{background-position:100% 53%}
+   100%{background-position:0% 48%}
+}
+@keyframes AnimationName {
+   0%{background-position:0% 48%}
+   50%{background-position:100% 53%}
+   100%{background-position:0% 48%}
 }
 html {
  scroll-behavior: smooth;
@@ -78,7 +100,7 @@ html {
 }
 .menudol button
 {
-    background-color: white;
+
     border: none;
     padding: 20px 54px;
     cursor: pointer;
@@ -88,12 +110,13 @@ html {
     text-align: center;
     margin: 0 0;
      font-family: 'Poiret One', cursive;
+     background-color:#7fb9f2;
     transition: all 400ms linear;
 
 }
 .menudol button:hover
 {
-    background-color: black;
+    background-color:#4c6f91;
     color: white;
     transition: all 400ms linear;
 
@@ -146,8 +169,6 @@ div.youtube{
     margin: 20 auto;
     border-radius: 5px;
     display: block;
-    background-color: #7FB9F2;
-    border: solid 3px #6594c1;
 }
 .video_iframe{
     height: auto;
@@ -189,8 +210,6 @@ div.youtube{
     padding-bottom: 20px;
     margin: 20 auto;
     border-radius: 5px;
-    background-color: #7FB9F2;
-    border: solid 3px #6594c1;
     text-align: center;
 }
 .thumbnail {
