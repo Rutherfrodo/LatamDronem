@@ -11,7 +11,6 @@ body{
     height: 100%;
     text-align: center;
     overflow-x: hidden;
-
     background: linear-gradient(272deg, #7fb9f2, #72a6d9, #6594c1, #5881a9, #7fb9f2);
     background-size: 1000% 1000%;
     -webkit-animation: AnimationName 15s ease infinite;
@@ -43,7 +42,6 @@ html {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .headerimage
@@ -56,7 +54,6 @@ html {
     height: auto;
     max-width: 100%;
     border-radius: 10px;
-
 }
 
 .latam
@@ -119,8 +116,6 @@ html {
     background-color:#4c6f91;
     color: white;
     transition: all 400ms linear;
-
-
 }
 #homeButton
 {
@@ -289,7 +284,6 @@ div.youtube{
     margin-top: 150px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
 }
 .telopis{
   font-family: 'Poiret One', cursive;
@@ -309,7 +303,6 @@ div.youtube{
 .socialmedia{
   margin-right:0px;
   display: block;
-
 }
 .fb{
     position: relative;
