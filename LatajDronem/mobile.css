@@ -12,20 +12,7 @@ body{
     min-width: 560px;
     text-align: center;
 }
-/*
-#frame1{
-    padding: 30px;
-    display:inline-block;
-    height: auto;
-    max-width: 200;
-}
-#frame2{
-    padding: 30px;
-    display:inline-block;
-    height: auto;
-    max-width: 200;
-}
-*/
+
 .telefon{
   font-size: 22px;
 }
@@ -50,10 +37,7 @@ body{
 .galeria{
     max-width: 100%;
 }
-.thumbnail{
-    width: 100;
-    height: 60;
-}
+
 
 p.popis{
     font-size: 12px;
