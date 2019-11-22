@@ -44,8 +44,6 @@ body{
   padding-right: 200px;
 }
 .opis{
-  width: 1500px;
-  max-width: 1500px !important;
   font-size: 25px;
   font-family: 'Varela Round', sans-serif;
 }
