@@ -11,7 +11,7 @@
     max-height: 900px;
 }
 body{
-  background-color: #72a6d9;
+  background-color: white;
 }
 
 .modal-content {
@@ -28,7 +28,7 @@ body{
 
 }
 .galeria-tekst{
-  background-color: #72a6d9;
+  background-color: white;
   max-width: 400px;
   text-align: center;
   margin: 0 auto;
@@ -36,9 +36,6 @@ body{
   padding: 20px;
   font-size: 21px;
   font-family: 'Varela Round', sans-serif;
-  color: #263748;
-  background-color: #7FB9F2;
-  border: solid 3px #6594c1;
 }
 .card-body{
 
@@ -51,7 +48,6 @@ body{
   max-width: 1500px !important;
   font-size: 25px;
   font-family: 'Varela Round', sans-serif;
-  color: #263748;
 }
 .row{
   text-align: center;

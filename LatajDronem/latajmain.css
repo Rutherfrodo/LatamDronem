@@ -11,29 +11,8 @@ body{
     height: 100%;
     text-align: center;
     overflow-x: hidden;
-    background: linear-gradient(272deg, #7fb9f2, #72a6d9, #6594c1, #5881a9, #7fb9f2);
-    background-size: 1000% 1000%;
-    -webkit-animation: AnimationName 15s ease infinite;
-    -moz-animation: AnimationName 15s ease infinite;
-    animation: AnimationName 15s ease infinite;
 }
 
-
-@-webkit-keyframes AnimationName {
-   0%{background-position:0% 48%}
-   50%{background-position:100% 53%}
-   100%{background-position:0% 48%}
-}
-@-moz-keyframes AnimationName {
-   0%{background-position:0% 48%}
-   50%{background-position:100% 53%}
-   100%{background-position:0% 48%}
-}
-@keyframes AnimationName {
-   0%{background-position:0% 48%}
-   50%{background-position:100% 53%}
-   100%{background-position:0% 48%}
-}
 html {
  scroll-behavior: smooth;
 }
@@ -107,13 +86,13 @@ html {
     text-align: center;
     margin: 0 0;
      font-family: 'Poiret One', cursive;
-     background-color:#7fb9f2;
+     background-color:white;
     transition: all 400ms linear;
 
 }
 .menudol button:hover
 {
-    background-color:#4c6f91;
+    background-color:black;
     color: white;
     transition: all 400ms linear;
 }
@@ -276,8 +255,7 @@ div.youtube{
     height: 200px;
     max-width: 1500px;
     bottom: 0px;
-    background-color: #7FB9F2;
-    border: solid 3px #6594c1;
+    background-color: grey;
     text-align: center;
     margin: 20 auto;
     position: relative;
