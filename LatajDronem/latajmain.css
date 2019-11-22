@@ -248,16 +248,7 @@ div.youtube{
   display: none;
   background-color: red;
 }
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 900px){
-  .card-text{
-    font-size: 18px;
-  }
-}
+
 
 
 /***************************************************************************/
