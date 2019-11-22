@@ -48,7 +48,7 @@ body{
     padding-bottom: 10px;
 }
 .galeria{
-    max-width: 350px;
+    max-width: 100%;
 }
 .thumbnail{
     width: 100;
