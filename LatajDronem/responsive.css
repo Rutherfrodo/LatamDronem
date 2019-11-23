@@ -13,6 +13,9 @@
   .card-text{
     font-size: 15px;
   }
+  .galeria-tekst{
+    font-size: 15px;
+  }
 }
 
 /* TABLETY*/
@@ -23,6 +26,9 @@
   .thumbnail{
       width: 120;
       height: 75;
+  }
+  .galeria-tekst{
+    font-size: 18px;
   }
 }
 
