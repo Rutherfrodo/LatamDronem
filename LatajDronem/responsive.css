@@ -3,6 +3,9 @@
   .modal-content {
     width: 100%;
   }
+  .stopka{
+    height: 120px;
+  }
   .thumbnail{
       width: 60;
       height: 45;
@@ -13,9 +16,22 @@
   .card-text{
     font-size: 15px;
   }
-  .galeria-tekst{
+  .telopis{
     font-size: 15px;
   }
+  .telefon{
+    font-size: 20px;
+  }
+  .ytimg{
+    width: 55;
+  }
+  .fbimg{
+    width: 55;
+  }
+  .teleimg{
+    width: 30;
+  }
+
 }
 
 /* TABLETY*/
@@ -27,9 +43,25 @@
       width: 120;
       height: 75;
   }
-  .galeria-tekst{
-    font-size: 18px;
+  .telopis{
+    font-size: 20px;
   }
+  .telefon{
+    font-size: 25px;
+  }
+  .ytimg{
+    width: 55;
+  }
+  .fbimg{
+    width: 55;
+  }
+  .teleimg{
+    width: 30;
+  }
+  .menudol button{
+      font-size: 25px;
+      text-align: center;
+    }
 }
 
 

@@ -292,12 +292,19 @@ div.youtube{
 .fb{
     position: relative;
     text-align: center;
-    height: 100px;
-    width: 100px;
+    max-width: 80px;
 }
 .yt{
     position: relative;
     text-align: center;
-    height: 100px;
-    width: 100px;
+    max-width: 80px;
+}
+.ytimg{
+  max-width: 80px;
+}
+.fbimg{
+  max-width: 80px;
+}
+.teleimg{
+  max-width: 40px;
 }
