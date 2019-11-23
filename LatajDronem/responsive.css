@@ -76,6 +76,9 @@
       font-size: 25px;
       text-align: center;
     }
+    .stopka{
+      height: 100px;
+    }
 }
 
 
@@ -84,5 +87,8 @@
   .thumbnail{
       width: 150;
       height: 90;
+  }
+  .stopka{
+    height: 110px;
   }
 }
