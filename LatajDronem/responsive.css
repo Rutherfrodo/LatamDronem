@@ -19,9 +19,6 @@
   .telopis{
     font-size: 15px;
   }
-  .telefon{
-    font-size: 20px;
-  }
   .ytimg{
     width: 55;
   }
@@ -30,8 +27,11 @@
   }
   .teleimg{
     width: 30;
+    font-size: 5;
   }
-
+  .telenumero{
+    font-size: 18px
+  }
 }
 
 /* TABLETY*/
