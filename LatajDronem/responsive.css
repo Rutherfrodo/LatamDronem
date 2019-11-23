@@ -1,10 +1,24 @@
 /* MOBILKI*/
 @media only screen and (max-width: 700px){
+
+  /*.carousel{
+    transform: rotate(90deg);
+    transform-origin:bottom left;
+    position:absolute;
+
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    overflow:auto;
+    top: 0;
+  }*/
   .modal-content {
     width: 100%;
   }
   .stopka{
-    height: 120px;
+    height: 80px;
   }
   .thumbnail{
       width: 60;
