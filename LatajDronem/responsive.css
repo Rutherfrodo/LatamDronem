@@ -1,5 +1,11 @@
 /* MOBILKI*/
-@media only screen and (max-width: 700px){
+@media only screen  and (max-width: 500px){
+  .modal-content {
+      padding-top: 50%;
+      height: 100%;
+  }
+}
+@media only screen  and (max-width: 700px){
 
   /*.carousel{
     transform: rotate(90deg);
@@ -14,9 +20,7 @@
     left: 0;
   }*/
 
-  .modal-content {
-    width: 100%;
-  }
+
   .stopka{
     height: 80px;
   }
